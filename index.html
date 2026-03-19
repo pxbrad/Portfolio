@@ -7,36 +7,43 @@
     <link href="./output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body class="min-h-screen flex flex-col gap-1">
-    <header class="h-32 w-full flex items-center justify-center p-4">
-  <ul class="flex flex-row justify-center items-center gap-5 w-3/4 h-32 border-b-2 border-l-2 border-r-2">
+<body class="min-h-screen flex justify-center items-center flex-col gap-1">
+    <header class="h-32 w-full flex justify-center items-center">
+      <div class="flex items-center justify-center border-b-2 border-l-2 border-r-2 h-32 w-3/4 shadow-lg shadow-white/20">
+  <ul class="flex flex-row justify-center items-center h-20 rounded-4xl bg-radial from-[rgb(24,24,24)] to-[rgb(28,28,28)]">
     <li>
-      <a class="flex items-center justify-center h-14 w-32" href="index.html">Home</a>
+      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="index.html">Home</a>
     </li>
     <li>
-      <a class="flex items-center justify-center h-14 w-32" href="projects.html">Projects</a>
+      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="projects.html">Projects</a>
     </li>
     <li>
-      <a class="flex items-center justify-center h-14 w-32" href="about.html">About me</a>
+      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="about.html">About me</a>
     </li>
   </ul>
+    </div>
 </header>
-    <main class="flex-1">
-      <section class="w-3/4 border-t-2 border-b-2 border-l-2 border-r-2">
+    <main class="flex flex-1 justify-center w-full flex-row gap-2">
+      <section class="flex items-center justify-center w-3/4 border-t-2 border-b-2 border-l-2 border-r-2 shadow-lg shadow-white/20 h-195">
         <div class="flex h-96 w-full items-center justify-center">
-        <ul class=""> 
-        <h1 class="text-3xl font-bold text-center">Hey, i'm Bradley</h1>
+        <ul> 
+        <h1 class="text-3xl font-bold text-center w-full">Hey, i'm Bradley</h1>
         <h2 class="text-center">[Software Engineer]</h2>
         <h3 class="text-green-600 text-2xl text-center">Welcome to my portfolio</h3>
         </ul>
         </div>
       </section>
-      <section>
-
-      </section>
     </main>
-    <footer class="h-32 w-full border-2 border-white">
+    <div class="flex justify-center items-center w-full">
+    <div class="flex w-3/4 gap-2 h-96">
+    <section class="w-2/4 border-2 shadow-lg shadow-white/20 h-96"></section>
+    <aside class="w-3/4 border-2 shadow-lg shadow-white/20 h-96"></aside>
+    </div></div>
 
+    <footer class="flex items-center justify-center h-32 w-full">
+    <div class="w-3/4 h-32 border-2 border-white shadow-lg shadow-white/20">
+
+    </div>
     </footer>
 </body>
 </html>
