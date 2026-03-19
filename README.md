@@ -7,7 +7,8 @@ This site will act as a **foundation portfolio**, where future work and experime
 ---
 
 ## Todo List
-- [_] Give my navigation bar some sort of design element to it, I want it to feel like a proper UI.
+- [ ] Finish stylising the navigation bar, blend the underline into the background with some kind of glow, readd hover effect, create outer box for navigation features to feel like software UI.
+- [ ] Give my navigation bar some sort of design element to it, I want it to feel like a proper UI.
 - [ ] Finish navigation bar using Tailwind, then make it responsive.
 - [ ] Create a minimalist footer section with connection to social media
 - [ ] Implement a Bento grid layout to display personal details
@@ -15,8 +16,8 @@ This site will act as a **foundation portfolio**, where future work and experime
 - [ ] Add project showcase cards and populate them gradually
 - [ ] Implement full responsiveness using tailwind breakpoints for mobile and alternative devices
 - [ ] Return to this project to implement modern technologies as I learn them, overwriting previous conventions.
-- [_] Experiment with figma to create a stylised focal point for this portfolio at some point.
-- [_] Connect the background throughout the whole page to make it feel uniform and flowing.
+- [ ] Experiment with figma to create a stylised focal point for this portfolio at some point.
+- [ ] Connect the background throughout the whole page to make it feel uniform and flowing.
 
 ---
 
