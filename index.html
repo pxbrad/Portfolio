@@ -7,24 +7,10 @@
     <link href="./output.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body class="min-h-screen flex justify-center items-center flex-col gap-1">
-    <header class="h-32 w-full flex justify-center items-center">
-      <div class="flex items-center justify-center border-b-2 border-l-2 border-r-2 h-32 w-3/4 shadow-lg shadow-white/20">
-  <ul class="flex flex-row justify-center items-center h-20 rounded-4xl bg-radial from-[rgb(24,24,24)] to-[rgb(28,28,28)]">
-    <li>
-      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="index.html">Home</a>
-    </li>
-    <li>
-      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="projects.html">Projects</a>
-    </li>
-    <li>
-      <a class="flex items-center justify-center h-14 w-32 transition-transform duration-300 hover:scale-105" href="about.html">About me</a>
-    </li>
-  </ul>
-    </div>
-</header>
-    <main class="flex flex-1 justify-center w-full flex-row gap-2">
-      <section class="flex items-center justify-center w-3/4 border-t-2 border-b-2 border-l-2 border-r-2 shadow-lg shadow-white/20 h-195">
+<body class="min-h-screen w-full flex flex-col gap-1">
+    <header id="navbar"></header>
+    <main class="flex flex-1 justify-center w-full flex-row">
+      <section class="flex items-center justify-center w-3/4 border-t-2 border-b-2 border-l-2 border-r-2 shadow-lg shadow-white/20 h-screen">
         <div class="flex h-96 w-full items-center justify-center">
         <ul> 
         <h1 class="text-3xl font-bold text-center w-full">Hey, i'm Bradley</h1>
@@ -35,7 +21,7 @@
       </section>
     </main>
     <div class="flex justify-center items-center w-full">
-    <div class="flex w-3/4 gap-2 h-96">
+    <div class="flex gap-1 w-3/4 h-96">
     <section class="w-2/4 border-2 shadow-lg shadow-white/20 h-96"></section>
     <aside class="w-3/4 border-2 shadow-lg shadow-white/20 h-96"></aside>
     </div></div>
@@ -46,4 +32,5 @@
     </div>
     </footer>
 </body>
+<script src="js/script.js"></script>
 </html>
